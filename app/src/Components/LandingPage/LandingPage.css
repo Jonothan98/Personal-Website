@@ -1,6 +1,4 @@
 .landing-page-container {
-    top: 0;
-    left: 0;
     display:flex;
     position: fixed;
     height: 100%;
