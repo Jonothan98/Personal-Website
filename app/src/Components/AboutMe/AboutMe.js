@@ -7,11 +7,11 @@ function AboutMe() {
     return (
         <div className='about-me-container'>
             <Card style={{ width: '18rem' }} className='card-container'>
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img variant="top" className="card-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" />
                 <Card.Body>
                     <Card.Title>Web Developer Skills</Card.Title>
                     <Card.Text>
-                        I have experience with web development mainly using the React framework for website creation.
+                        I have experience with web development using the React framework for website creation.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -25,11 +25,11 @@ function AboutMe() {
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='card-container'>
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img variant="top" className="card-image" src="https://cdn.iconscout.com/icon/free/png-512/free-java-60-1174953.png?f=webp&w=256" />
                 <Card.Body>
                     <Card.Title>Object Oriented Programs</Card.Title>
                     <Card.Text>
-                        I have the most experience in Java when working on the back end of website, have experience in C++, and have me games using C#.
+                        I have the most experience in with working in Java, have experience in C++, and have made games using C#.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -43,7 +43,7 @@ function AboutMe() {
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='card-container'>
-                <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img variant="top" className="card-image" src="https://www.svgrepo.com/show/303251/mysql-logo.svg" />
                 <Card.Body>
                     <Card.Title>Databases</Card.Title>
                     <Card.Text>
