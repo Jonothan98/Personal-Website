@@ -6,7 +6,7 @@ import "./AboutMe.css";
 function AboutMe() {
     return (
         <div className='about-me-container'>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='card-container'>
                 <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                 <Card.Body>
                     <Card.Title>Web Developer Skills</Card.Title>
@@ -24,7 +24,7 @@ function AboutMe() {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='card-container'>
                 <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                 <Card.Body>
                     <Card.Title>Object Oriented Programs</Card.Title>
@@ -42,7 +42,7 @@ function AboutMe() {
                     <Card.Link href="#">Another Link</Card.Link>
                 </Card.Body>
             </Card>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem' }} className='card-container'>
                 <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                 <Card.Body>
                     <Card.Title>Databases</Card.Title>
@@ -60,23 +60,6 @@ function AboutMe() {
                 </Card.Body>
             </Card>
         </div>
-
-        // <div className='about-me-container'>
-        //     <h1>About Me</h1>
-        //     <div className='skill-container'>
-        //         <h2>Skills</h2>
-        //         <p>I have experience working with Javascript, React, and Java for the creation of websites</p>
-        //         <p>I have experience working with object oriented programs such as Java, C++, and C#. You can even see some of the games I have worked on using C# under the projects tab</p>
-        //     </div>
-        //     <div>
-        //         <h2>Education</h2>
-        //         <p>Graduated from University of Houston in 2020</p>
-        //         <p>Bachelor of Science </p>
-        //         <p>Major: Digital Media</p>
-        //         <p>Minor: Computer Science</p>
-        //     </div>
-        //     <h2>Certifications</h2>
-        // </div>
     )
 }
 
