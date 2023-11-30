@@ -1,17 +1,35 @@
 
 
-.card-container{
+.project-card-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-style: solid;
     border-width: 1px;
-    border-radius: 2%;
+    border-radius: 25px;
     padding: 5% 5% 5% 5%;
     margin: 5% 5% 5% 5%;
 }
 .card-image{
     width: 315px;
     height: 250px;
+}
+
+@media screen and (min-width: 451px){
+    .project-card-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 25px;
+        padding: 1% 1% 1% 0%;
+    }
+    .card-text{
+        width: 80%;
+        overflow: hiddens;
+        text-overflow: ellipsis;
+    }
+
+    .card-button {
+        justify-content: center;
+    }
 }

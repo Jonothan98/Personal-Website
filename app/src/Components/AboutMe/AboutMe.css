@@ -15,7 +15,7 @@
     padding: 5% 5% 5% 5%;
 }
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 451px) {
     .about-me-container  {
         display: flex;
         flex-direction: row;
@@ -26,6 +26,6 @@
     }
     
     .card-container{
-        margin-right: 5%;
+         margin-right: 5%; 
     }
 }
