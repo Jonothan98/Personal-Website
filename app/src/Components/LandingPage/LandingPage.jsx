@@ -6,8 +6,8 @@ function LandingPage() {
     <div className='landing-page-container'>
       <div className='text-container'>
         <h1 className='name'>Jonothan Castillo</h1>
-        <h2 className='position'>Full Stack Software Developer</h2>
-        <p className='about-me'> I am a Software Developer with experience in full-stack development using React, Java, and MySQL.</p>
+        <h2 className='position'>Full-Stack Software Developer</h2>
+        <p className='about-me'> I am a full-stack software developer with experience in using React, Java, and MySQL.</p>
       </div>
     </div>
   );

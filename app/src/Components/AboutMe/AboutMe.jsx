@@ -29,7 +29,7 @@ function AboutMe() {
                 <Card.Body>
                     <Card.Title>Object Oriented Programs</Card.Title>
                     <Card.Text>
-                        I have the most experience in with working in Java, have experience in C++, and have made games using C#.
+                        I have the most experience working in Java, have experience in C++, and have made games using C#.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -47,7 +47,7 @@ function AboutMe() {
                 <Card.Body>
                     <Card.Title>Databases</Card.Title>
                     <Card.Text>
-                        Most of my experience with databases have been in MySQL and I have used Springboot to access that data.
+                        Most of my experience with databases has been in MySQL and I have used Springboot to access that data.
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
