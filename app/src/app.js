@@ -4,6 +4,7 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Header from './Components/Header/Header';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function app() {
@@ -14,6 +15,7 @@ function app() {
                 <Route path="*" element={<LandingPage />}></Route>
                 <Route path="/about-me" element={<AboutMe />}></Route>
                 <Route path='/projects' element={<Projects />}></Route>
+                <Route path='/contact' element={<Contact />}></Route>
             </Routes>
         </BrowserRouter>
     )
