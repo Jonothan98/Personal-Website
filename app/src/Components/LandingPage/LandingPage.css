@@ -5,11 +5,11 @@
     position: fixed;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
 }
 
 .text-container {
     height: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
