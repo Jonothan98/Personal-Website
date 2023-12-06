@@ -8,7 +8,7 @@ function Contact() {
                 <h1>Contact Me:</h1>
                 <a href="mailto:jonothan.x.castillo@gmail.com" className='contact-link-text' target='_blank' rel='noreferrer'>
                     <i className="bi bi-envelope"> </i>
-                    Jonothan.x.castillo@gmail.com
+                    jonothan.x.castillo@gmail.com
                 </a>
                 <hr className='solid'></hr>
             </div>
