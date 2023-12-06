@@ -1,16 +1,31 @@
 import React from 'react'
+import './Contact.css';
 
 function Contact() {
-  return (
-    <div>
-        <h1>Contact Me:</h1>
-        <p>Jonothan.x.castillo@gmail.com</p>
-        <h1>Links</h1>
-        <a href='https://www.linkedin.com/in/jonothan-castillo-a36a58190/' target='_blank' rel='noreferrer'>LinkedIn</a> <br/>
-        <a href='https://github.com/Jonothan98' target='_blank' rel='noreferrer'>Github</a>
-
-    </div>
-  )
+    return (
+        <div className="contact-container">
+            <div className='contact-me-container'>
+                <h1>Contact Me:</h1>
+                <p>
+                    <i className="bi bi-envelope"></i>
+                    Jonothan.x.castillo@gmail.com
+                </p>
+                <hr className='solid'></hr>
+            </div>
+            <div className='links-container'>
+                <h1>Links:</h1>
+                <a className='contact-link-text' href='https://www.linkedin.com/in/jonothan-castillo-a36a58190/' target='_blank' rel='noreferrer'>
+                    <i className="bi bi-linkedin"> </i>
+                    LinkedIn
+                </a>
+                <br />
+                <a className='contact-link-text' href='https://github.com/Jonothan98' target='_blank' rel='noreferrer'>
+                    <i className="bi bi-github"> </i>
+                    Github
+                </a>
+            </div>
+        </div>
+    )
 }
 
 export default Contact
