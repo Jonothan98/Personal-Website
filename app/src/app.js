@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function app() {
@@ -17,6 +18,7 @@ function app() {
                 <Route path='/projects' element={<Projects />}></Route>
                 <Route path='/contact' element={<Contact />}></Route>
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 }
