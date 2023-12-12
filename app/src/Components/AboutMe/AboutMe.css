@@ -18,6 +18,9 @@
     width: 100%;
     height: 481px;
 }
+.resume-link-container{
+    margin-bottom: 2%;
+}
 .resume-link{
     text-decoration: none;
     margin-left: 2%;
@@ -46,9 +49,17 @@
         flex-direction: column;
         justify-content: center;
     }
+    .resume-link-container{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 1%;
+    }
     .resume-link{
         width: 60%;
         align-self: center;
+        font-size: 1.875em;
     }
     .resume{
         width: 60%;

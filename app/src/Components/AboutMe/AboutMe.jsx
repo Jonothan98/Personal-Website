@@ -51,7 +51,9 @@ function AboutMe() {
                 </Card>
             </div>
             <div className='resume-container'>
-                <a className='resume-link' href={resume} target='_blank' rel='noreferrer'> Open Resume in New Window</a>
+                <div className='resume-link-container'>
+                    <a className='resume-link' href={resume} target='_blank' rel='noreferrer'> Open Resume in New Window</a>
+                </div>
                 <embed className='resume' src={resume} type='application/pdf'></embed>
             </div>
         </div>
