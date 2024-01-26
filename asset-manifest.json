@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Jonothan98/Personal-Website/static/css/main.cd8c0cb6.css",
+    "main.js": "/Jonothan98/Personal-Website/static/js/main.b0c0ea63.js",
+    "static/media/bootstrap-icons.woff?": "/Jonothan98/Personal-Website/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/bootstrap-icons.woff2?": "/Jonothan98/Personal-Website/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/Resume Jonothan Castillo.pdf": "/Jonothan98/Personal-Website/static/media/Resume Jonothan Castillo.60394b6ce77697b875ae.pdf",
+    "index.html": "/Jonothan98/Personal-Website/index.html",
+    "main.cd8c0cb6.css.map": "/Jonothan98/Personal-Website/static/css/main.cd8c0cb6.css.map",
+    "main.b0c0ea63.js.map": "/Jonothan98/Personal-Website/static/js/main.b0c0ea63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8c0cb6.css",
+    "static/js/main.b0c0ea63.js"
+  ]
+}
